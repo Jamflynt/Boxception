@@ -31,162 +31,62 @@ h1 {
 }
 
 /* Bonus Start */
+/* Note, second and simplified version */
 
-table {
-    margin: auto;
-}
-
-.one {
-        width: 100px;
-        height: 100px;
-        background-color: red;
-        border-top: 3px solid black;
-}
-
-.five {
+td {
     width: 100px;
     height: 100px;
+}
+
+tbody {
+margin: 0;
+}
+
+#red {
     background-color: red;
-    border-bottom: 3px solid black;
 }
 
-#oneOne {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    border-top: 3px solid black;
-    border-left: 3px solid black;
-}
-
-#oneFive {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    border-top: 3px solid black;
-    border-right: 3px solid black;
-}
-
-#twoOne {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    border-left: 3px solid black
-}
-
-#twoTwo {
-    width: 100px;
-    height: 100px;
+#blue {
     background-color: blue;
-    border-top: 3px solid black;
-    border-left: 3px solid black;
 }
 
-#twoThree {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    border-top: 3px solid black;
-}
-
-#twoFour {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    border-top: 3px solid black;
-    border-right: 3px solid black;
-}
-
-#twoFive {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    border-right: 3px solid black
-}
-
-#threeOne {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    border-left: 3px solid black
-}
-
-#threeTwo {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    border-left: 3px solid black;
-}
-
-#threeThree {
-    width: 100px;
-    height: 100px;
+#white {
     background-color: white;
     border: 3px solid black;
 }
 
-#threeFour {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    border-right: 3px solid black;
-}
-
-#threeFive {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    border-right: 3px solid black
-}
-
-#fourOne {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    border-left: 3px solid black
-}
-
-#fourTwo {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
+.aboveLeft {
+    border-top: 3px solid black;
     border-left: 3px solid black;
-    border-bottom: 3px solid black;
 }
 
-#fourThree {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    border-bottom: 3px solid black;
+.above {
+    border-top: 3px solid black;
 }
 
-#fourFour {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
+.aboveRight {
+    border-top: 3px solid black;
     border-right: 3px solid black;
+}
+
+.down {
     border-bottom: 3px solid black;
 }
 
-#fourFive {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    border-right: 3px solid black
+.downRight {
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
 }
 
-#fiveOne {
-    width: 100px;
-    height: 100px;
-    background-color: red;
+.downLeft {
+    border-bottom: 3px solid black;
     border-left: 3px solid black;
-    border-bottom: 3px solid black;
 }
 
-#fiveFive {
-    width: 100px;
-    height: 100px;
-    background-color: red;
+.left {
+    border-left: 3px solid black;
+}
+
+.right {
     border-right: 3px solid black;
-    border-bottom: 3px solid black;
 }
