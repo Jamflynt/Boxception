@@ -15,7 +15,9 @@ h1 {
     border: 3px solid black;
     height: 300px;
     width: 300px;
-    margin: 20%;
+    margin: 100px auto;
+    /* Originally used percentages and while #two is exact, #three is not, so changing method*/
+    /* margin: 20%; */
 }
 
 #three {
@@ -23,7 +25,9 @@ h1 {
     border: 3px solid black;
     height: 100px;
     width: 100px;
-    margin: 30%;
+    margin: 100px auto;
+    /* Originally used percentages and while #twp is exact, #three is not, so changing method*/
+    /* margin: 30%; */
 }
 
 /* Bonus Start */
