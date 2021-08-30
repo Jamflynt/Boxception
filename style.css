@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+
+#one {
+    border: 3px solid black;
+    background-color: red;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+}
+
+#two {
+    background-color: blue;
+    border: 3px solid black;
+    height: 300px;
+    width: 300px;
+    margin: 20%;
+}
+
+#three {
+    background-color: white;
+    border: 3px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 30%;
+}
