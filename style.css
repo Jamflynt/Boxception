@@ -38,8 +38,8 @@ td {
     height: 100px;
 }
 
-tbody {
-margin: 0;
+table {
+margin: auto;
 }
 
 #red {
